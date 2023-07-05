@@ -53,13 +53,13 @@ module.exports = {
       //},
 
        desiredCapabilities: {
-        browserName: 'chrome'
+        browserName: 'chrome',
         'goog:chromeOptions': {
           args: [
             '--disable-dev-shm-usage',
             '--no-sandbox',
             '--headless',
-            ]
+          ]
         }
       },
       
